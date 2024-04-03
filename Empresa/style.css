@@ -1,0 +1,94 @@
+/* Reset de Estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos Gerais */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #333; /* Cor de fundo escura */
+    color: #fff;
+  }
+  
+  header, section, footer {
+    padding: 20px;
+    text-align: center; /* Centralizar textos */
+  }
+  
+  h1, h2 {
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos do Cabeçalho */
+ 
+  
+  header h1 {
+    color: #3498db; /* Azul */
+  }
+  
+  /* Estilos dos Valores */
+  #values ul {
+    list-style-type: none;
+  }
+  
+  /* Estilos dos Projetos */
+  #projects ol {
+    list-style: decimal inside;
+  }
+  
+  /* Estilos dos Depoimentos */
+  #testimonials {
+    background-color: #222; /* Cor de fundo escura */
+    padding: 30px 20px;
+  }
+  
+  blockquote {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #333; /* Cor de fundo escura */
+  }
+  
+ 
+  
+  /* Estilos do Formulário de Contato */
+  #contact form {
+    display: grid;
+    grid-gap: 10px;
+    text-align: left; /* Alinhar texto à esquerda */
+  }
+  
+  #contact label {
+    font-weight: bold;
+  }
+  
+  #contact input,
+  #contact textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #contact button {
+    padding: 10px 20px;
+    background-color: #e74c3c; /* Vermelho */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #contact button:hover {
+    background-color: #c0392b; /* Vermelho mais escuro */
+  }
+  
+  /* Estilos do Rodapé */
+  footer {
+    padding: 20px;
+  }
+  
+  
